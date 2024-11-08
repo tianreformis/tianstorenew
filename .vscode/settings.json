@@ -2,6 +2,7 @@
     "editor.fontSize": 19,
     "editor.fontFamily": "Fira Code",
     "editor.tabSize": 4,
-    "workbench.colorTheme": "Abyss"
-
+    "workbench.colorTheme": "Abyss",
+    "window.zoomLevel": -1,
+    "terminal.integrated.fontSize": 16
 }
