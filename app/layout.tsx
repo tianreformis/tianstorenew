@@ -9,6 +9,10 @@ import {
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ModalProvider from '@/providers/modal-provier';
+import ModalProvier from '@/providers/modal-provier';
+import db from '@/lib/db';
+import { ToasterProvider } from '@/providers/toast-provider';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,13 +26,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
   return (
     <ClerkProvider 
-    afterSignOutUrl="/"
+    afterSignOutUrl="/sign-in"
     
     >
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <ToasterProvider />
+          <ModalProvier />
+          {children}
+          
+          </body>
       </html>
     </ClerkProvider>
   );
