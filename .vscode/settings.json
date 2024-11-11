@@ -6,8 +6,7 @@
     "window.zoomLevel": 0,
     "terminal.integrated.fontSize": 16,
     "editor.volume":0,
-    "accessibility.signalOptions.volume": 0,
-    "audioCues.volume": 0
+    "accessibility.signalOptions.volume": 0
 
 
 }
