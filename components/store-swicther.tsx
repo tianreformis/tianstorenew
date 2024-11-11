@@ -8,10 +8,13 @@ interface StoreSwitcherProps extends PopOverTriggeredProps {
     items : Store[];
 }
 
-const StoreSwitcher = () => {
+const StoreSwitcher = ({
+    className, 
+    items =  []
+}: StoreSwitcherProps) => {
 return (
     <div>
-
+Store Swicther New
     </div>
 )
 }
