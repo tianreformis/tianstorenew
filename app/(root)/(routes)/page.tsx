@@ -15,13 +15,15 @@ const SetupPage =()=> {
     }
   },[isOpen,onOpen])
 
-  return (
-    <div className="p-4">
-      RootPage
-      <UserButton />
-    </div>
+  return null;
+
+  // return (
+  //   <div className="p-4">
+  //     RootPage
+  //     <UserButton />
+  //   </div>
    
-  );
+  // );
 }
 
 export default SetupPage
