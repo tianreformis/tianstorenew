@@ -1,11 +1,13 @@
 {
-    "editor.fontSize": 17,
+    "editor.fontSize": 18,
     "editor.fontFamily": "Fira Code",
     "editor.tabSize": 4,
-    "workbench.colorTheme": "Abyss",
-    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.zoomLevel": 0,
     "terminal.integrated.fontSize": 16,
     "editor.volume":0,
     "accessibility.signalOptions.volume": 0,
+    "audioCues.volume": 0
+
 
 }
