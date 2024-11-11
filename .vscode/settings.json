@@ -1,9 +1,9 @@
 {
-    "editor.fontSize": 18,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Ubuntu Mono",
     "editor.tabSize": 4,
     "workbench.colorTheme": "Visual Studio Dark",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "terminal.integrated.fontSize": 16,
     "editor.volume":0,
     "accessibility.signalOptions.volume": 0
